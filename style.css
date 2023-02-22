@@ -1,0 +1,121 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+
+.navbar-nav .nav-item  a {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item {
+    padding: 4px;
+}
+.sm-icons {
+    flex-direction: row;
+}
+
+.sm-icons li {
+    padding: 4px;
+}
+
+.front-page {
+    padding-bottom: 7%;
+}
+
+.front-page h1 {
+    padding-top: 3%;
+    font-size: 75px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.front-page h3 span {
+    color: #18453b;
+    font-weight: bold;
+}
+
+.about {
+    padding-top: 3%;
+    padding-bottom: 4.1%;
+    background-color: #f8f9fa;
+}
+
+.about-header {
+    font-family: 'Russo One', sans-serif;
+}
+
+.ao-text {
+    color: #084477;
+    font-weight: bold;
+}
+
+.front-page .desc-2 {
+    padding-bottom: 10px;
+}
+
+.blog-header {
+    font-family: 'Russo One', sans-serif;
+}
+
+.headshot {
+    width: 450px;
+    padding-top: 13%;
+}
+
+.footer-brk {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cont-me{
+    font-family: 'Russo One', sans-serif;
+}
+
+.myclass::before {
+    content: "I'm Tyler";
+    animation: animate 20s infinite 0s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+    
+    0% {
+        content: "Soy Tyler";
+    }
+
+    10% {
+        content: "Je suis Tyler";
+    }
+
+    20% {
+        content: "Sono Tyler";
+    }
+
+    30% {
+        content: "私はタイラーです";
+    }
+
+    40% {
+        content: "我是泰勒";
+    }
+
+    50% {
+        content: "मैं टायलर हूँ";
+    }
+
+    60% {
+        content: "я Тайлер";
+    }
+
+    70% {
+        content: "أنا تايلر";
+    }
+
+    80% {
+        content: "Eu sou Tyler";
+    }
+
+    90% {
+        content: "난 타일러야";
+    }
+}

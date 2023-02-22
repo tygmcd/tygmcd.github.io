@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tyler McDonald</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- tab logo -->
+    <link rel="icon" href="images/tab.png" />
+
+    <!-- bootstrap styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- js plugins -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- russo one google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3" id="home">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="images/logo_blue.png" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/images/McDonald_Resume.docx" download class="nav-link"
+                >Resumé</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav sm-icons flex-row">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-git-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- intro section -->
+    <section class="front-page">
+      <div class="container mb-xl-5">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <img src="images/avataaars.jpg" class="mx-auto d-block pt-5" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 center-block text-center">
+            <h1><span class="myclass"> </span></h1>
+            <h3>a 3rd Year Computer Science Student</h3>
+            <h3>at <span>Michigan State University</span></h3>
+            <a class="btn btn-primary btn-lg mt-3" href="#contact" role="button"
+              >Contact Me</a
+            >
+            <a
+              class="btn btn-secondary btn-lg mt-3"
+              href="/images/McDonald_Resume.docx"
+              download
+              role="button"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about mt-xl-5 mb-xl-5" id="about">
+      <div class="container pt-xl-2">
+        <div class="row pb-2">
+          <div class="col-lg-6 col-md-10">
+            <h1 class="about-header">About Me</h1>
+            <h6 class="about-sub pb-3">My backstory and where I am now</h6>
+            <p>
+              From a young age, I have always been thoroughly interested in all
+              things technology. My spare time was consumed by fixing up old
+              computers with my friends, building random websites, and trying to
+              jailbreak my iPod without my dad knowing (LOL). From that, you'd think
+              that when it came time to apply to college, I would know exactly
+              what I wanted to do with my career, however, that wasn't really
+              the case. My original plan was to go into Supply Chain Management
+              at MSU, not because I was passionate about it, but because I
+              thought it was the best route, the easiest route. That all changed
+              when I took CSE 102, an introductory programming class required
+              for prospective business students. This course resparked the deep
+              passion I once had for computers and technology, and prompted me
+              to switch my major to Computer Science.
+            </p>
+            <p>
+              Fast forward two years later, I am in my 6th semester at Michigan
+              State and am now an Undergraduate Learning Assistant for the class
+              that once inspired me to change my major. In my free time, I love
+              working on spontaenous side projects and expanding my programming
+              knowledge as much as possible. I have accepted a Software
+              Developer internship position at <span class="ao-text">Auto Owners Insurance</span> for this
+              summer, and am beyond excited to gain some real world experience!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-10 d-flex align-items-center float-end">
+            <img
+              src="images/headshot2.jpg"
+              alt="your-image-alt"
+              class="rounded mx-auto"
+              style="max-width: 75%"
+            />
+          </div>
+        </div>
+        <div
+          class="row d-flex align-items-center justify-content-center pt-5 pb-3"
+          id="prog-list"
+        >
+          <div class="col-1">
+            <img src="images/cplusplus.png" alt="Logo 1" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/c.png" alt="Logo 2" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/html.png" alt="Logo 3" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/css.png" alt="Logo 4" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/bootstrap.png" alt="Logo 5" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/python.png" alt="Logo 5" class="img-fluid" />
+          </div>
+          <div class="col-1">
+            <img src="images/arm.png" alt="Logo 5" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-auto mx-auto pt-4 pb-3">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#current">
+              Current Course Schedule
+            </button>
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#comp">
+              Relavent Completed Coursework
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- coursework section -->
+    <section class="coursework">
+      <div class="modal fade" id="current" tabindex="-1" role="dialog" aria-labelledby="current-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="current-title">SS23 Course Schedule</h5>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Course Code</th>
+                    <th scope="col">Course Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CSE 331</td>
+                    <td>Algorithms and Data Structures</td>
+                  </tr>
+                  <tr>
+                    <td>CSE 320</td>
+                    <td>Computer Organization and Architecture</td>
+                  </tr>
+                  <tr>
+                    <td>PHY 184</td>
+                    <td>Physics II</td>
+                  </tr>
+                  <tr>
+                    <td>SPN 320</td>
+                    <td>Phonetics and Pronunciation (Spanish) </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="comp" tabindex="-1" role="dialog" aria-labelledby="comp-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="comp-title">Completed Coursework</h5>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Course Code</th>
+                    <th scope="col">Course Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CSE 231</td>
+                    <td>Introduction to Programming I (Python)</td>
+                  </tr>
+                  <tr>
+                    <td>CSE 232</td>
+                    <td>Introduction to Programming II (C++)</td>
+                  </tr>
+                  <tr>
+                    <td>CSE 260</td>
+                    <td>Discrete Structures in C.S.</td>
+                  </tr>
+                  <tr>
+                    <td>CSE 300</td>
+                    <td>Social, Professional, and Ethical Issues in C.S.</td>
+                  </tr>
+                  <tr>
+                    <td>MTH 314</td>
+                    <td>Matrix Algebra w/ Computational Applications</td>
+                  </tr>
+                  <tr>
+                    <td>MTH 132</td>
+                    <td>Calculus I</td>
+                  </tr>
+                  <tr>
+                    <td>MTH 133</td>
+                    <td>Calculus II</td>
+                  </tr>
+                  <tr>
+                    <td>MTH 234</td>
+                    <td>Multivariable Calculus</td>
+                  </tr>
+                  <tr>
+                    <td>PHY 183</td>
+                    <td>Physics I</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-lg-6">
+            <h1 class="blog-header">My Blog</h1>
+            <h6 class="about-sub pb-3">Whatever is currently on my mind</h6>
+          </div>
+          <div class="col-lg-6">
+            <a class="btn btn-primary btn-sm float-end mt-5" href="/blog/index.html" role="button"
+            >All Blogs</a>
+          </div>
+        </div>
+
+        <div class="row pb-3">
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="images/jobs_cook.png" />
+              <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <h5 class="card-subtitle">Subtitle</h5>
+                <div class="card-text pb-3">Blog 1 text about blog 1</div>
+                <a class="btn btn-outline-primary btn-sm" href="#" role="button"
+                  >Read more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="images/twalk.png" />
+              <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <h5 class="card-subtitle">Subtitle</h5>
+                <div class="card-text pb-3">Blog 2 text about blog 2</div>
+                <a class="btn btn-outline-primary btn-sm" href="#" role="button"
+                  >Read more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="images/mayer.png" />
+              <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <h5 class="card-subtitle">Subtitle</h5>
+                <div class="card-text pb-3">Blog 3 text about blog 3</div>
+                <a class="btn btn-outline-primary btn-sm" href="#" role="button"
+                  >Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="container mt-4">
+        <h1 class="text-center pb-3 pt-3" id="cont-me">Contact me!</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="d-block mx-auto col-md-6 pb-5">
+            <form>
+              <div class="form-group">
+                <label for="name-input">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name-input"
+                  placeholder="Chandler Bing"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email-input">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email-input"
+                  placeholder="chandlerbing@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="6"
+                  placeholder="Could this website BE any cooler?"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <hr class="footer-brk" />
+    <footer class="d-flex justify-content-around m-5">
+      <h5><span>&copy</span>2023 Tyler McDonald</h5>
+    </footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-3">
+          <h6>Under Construction...</h6>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
