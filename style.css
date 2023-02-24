@@ -71,51 +71,11 @@
     font-family: 'Russo One', sans-serif;
 }
 
-.myclass::before {
-    content: "I'm Tyler";
-    animation: animate 20s infinite 0s;
-    padding-left: 10px;
+.intro-text {
+    animation: fadeIn 5s;
 }
 
-@keyframes animate {
-    
-    0% {
-        content: "Soy Tyler";
-    }
-
-    10% {
-        content: "Je suis Tyler";
-    }
-
-    20% {
-        content: "Sono Tyler";
-    }
-
-    30% {
-        content: "私はタイラーです";
-    }
-
-    40% {
-        content: "我是泰勒";
-    }
-
-    50% {
-        content: "मैं टायलर हूँ";
-    }
-
-    60% {
-        content: "я Тайлер";
-    }
-
-    70% {
-        content: "أنا تايلر";
-    }
-
-    80% {
-        content: "Eu sou Tyler";
-    }
-
-    90% {
-        content: "난 타일러야";
-    }
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
 }
