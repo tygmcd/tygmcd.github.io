@@ -2,7 +2,6 @@
     width: 100px;
 }
 
-
 .navbar-nav .nav-item  a {
     font-family: 'Russo One', sans-serif;
     font-size: 20px;
@@ -42,6 +41,11 @@
 
 .about-header {
     font-family: 'Russo One', sans-serif;
+}
+
+.msu-text {
+    color: #18453b;
+    font-weight: bold;
 }
 
 .ao-text {
